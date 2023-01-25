@@ -16,7 +16,7 @@ bosh init-release --git
 ```yml
 releases:
 - name: windows-bosh-release-example
-  version: 0.0.1-alpha
+  version: 0.0.2-alpha
 
 addons:
 - name: windows-bosh-release-example

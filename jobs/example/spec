@@ -3,7 +3,6 @@ name: example
 description: Boiler plate Windows release example
 templates:
   pre-start.ps1: bin/pre-start.ps1
-files:
-- msi/NessusAgent-10.3.1-x64.msi
-packages: []
+packages:
+- nessus
 properties: {}
