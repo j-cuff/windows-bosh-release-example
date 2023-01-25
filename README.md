@@ -11,12 +11,12 @@ bosh init-release --git
 
 **NOTE**: This is intended to be used as a BOSH [addon](https://bosh.io/docs/runtime-config/#update)
 
-## Example runtime configuration YAML
+## Example runtime configuration YAML to run on a variety of Windows stemcells
 
 ```yml
 releases:
 - name: windows-bosh-release-example
-  version: 7
+  version: 0.0.1-alpha
 
 addons:
 - name: windows-bosh-release-example
@@ -25,6 +25,8 @@ addons:
     release: windows-bosh-release-example
   include:
     stemcell:
+    - os: windows2012R2
+    - os: windows1803
     - os: windows2019
 ```
 
