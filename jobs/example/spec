@@ -1,6 +1,6 @@
 ---
 name: example
-description: boiler plate Windows release example
+description: Boiler plate Windows release example
 templates:
   pre-start.ps1: bin/pre-start.ps1
 files:
