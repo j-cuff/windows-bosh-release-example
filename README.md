@@ -70,7 +70,7 @@ addons:
   packages/nessus/spec
   ```
 
-- run the following command to build the release package
+* Generate a release tarball
   ```bash
   bosh create-release \
     --name windows-bosh-release-example \
