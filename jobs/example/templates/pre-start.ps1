@@ -12,3 +12,5 @@ $size.width = 128
 $term.windowsize = $size
 
 Start-Process msiexec.exe -Wait -ArgumentList '/I NessusAgent-10.3.1-x64.msi /quiet'
+
+#Start-Process -FilePath C:\var\vcap\packages\qualys-windows-binary\qualys-windows-binary\QualysCloudAgent.exe -ArgumentList "CustomerId={guid}","ActivationId={guid}" 
