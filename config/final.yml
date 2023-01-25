@@ -1,0 +1,8 @@
+---
+name: windows-bosh-release-example
+blobstore:
+  provider: s3
+  options:
+    bucket_name: windows-bosh-release-example
+    region: us-gov-east-1
+    host: s3.us-gov-east-1.amazonaws.com
