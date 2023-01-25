@@ -51,7 +51,7 @@ addons:
   Succeeded
   ```
 
-* Purge the current blob
+* Purge the current blob for the Nessus agent
   ```console
   bosh remove-blob msi/NessusAgent-10.3.1-x64.msi
   ```
