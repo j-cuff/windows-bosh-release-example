@@ -7,6 +7,11 @@ Windows BOSH Release Example
 Fork this repo as a starting point _or_ initialize your release and git repository with the expected release directory structure
 ```
 bosh init-release --git
+Alternatively:
+mkdir qualys-windows-release
+cd qualys-windows-release
+bosh init-release --git
+bosh generate-job qualys-win-install
 ```
 
 **NOTE**: This is intended to be used as a BOSH [addon](https://bosh.io/docs/runtime-config/#update)
