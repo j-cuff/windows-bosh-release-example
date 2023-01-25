@@ -1,0 +1,17 @@
+name: windows-bosh-release-example
+version: 0.0.2-alpha
+commit_hash: fcbc531
+uncommitted_changes: false
+jobs:
+- name: example
+  version: 62ec02c6336fc69c3df4beb1a812130b668232d69bdc6542466942cf8c2370ab
+  fingerprint: 62ec02c6336fc69c3df4beb1a812130b668232d69bdc6542466942cf8c2370ab
+  sha1: sha256:7e708e0b22312660772c3cd3b6446661c6eb7abb4c26e346f7c145f183dad7a9
+  packages:
+  - nessus
+packages:
+- name: nessus
+  version: 8332c365144e0d3b070589bda0258415e74414b6227fe055c24fbeeddd368011
+  fingerprint: 8332c365144e0d3b070589bda0258415e74414b6227fe055c24fbeeddd368011
+  sha1: sha256:b2ddcdf6c027e511926dd32390e20f9bee3911e91edf0cf961f37286cc61d5ed
+  dependencies: []
